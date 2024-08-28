@@ -8,4 +8,4 @@ Html, Css e JavaScript
 https://decodificador-de-texto-murex.vercel.app/
 
 # Demonstração do projeto
-https://github.com/user-attachments/assets/6f009483-513d-4826-9895-69580bb796b3
+https://github.com/user-attachments/assets/b1ce7560-e32f-482a-a7cc-4c80dfca2a16
