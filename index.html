@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="assets/img/lupa.ico" type="image/x-icon">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/img/logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="secao__entrada">
+            <div class="secao__entrada__texto">
+                <textarea placeholder="Digite seu texto aqui..." class="secao__entrada__texto__campo"></textarea>
+            </div>
+            <div class="secao__entrada__alerta">
+                <img src="assets/img/alerta.png" alt="alerta">
+                <p>Somente letras minusculas e sem acento</p>
+            </div>
+            <div class="secao__entrada__btn">
+                <input type="button" class="secao__entrada__btn__cripitografar" value="Criptografar">
+                <input type="button" class="secao__entrada__btn__desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="secao__saida">
+            <div class="secao__saida__imagem">
+                <img src="assets/img/pessoa.png" alt="pessoa com lupa">
+            </div>
+            <div class="secao__saida__texto">
+                <h3>Nenhuma mensagem foi <br> encontrada</h3>
+                <p> Digite o texto que deseja criptografar ou <br> desencriptar.</p>
+            </div>
+            <div class="secao__saida__btn">
+                <input type="button" class="secao__entrada__btn__copiar" value="Copiar">
+            </div>
+            <div class="secao__saida__mensagem">
+                <p class="secao__saida__mensagem__resultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
